@@ -10,10 +10,6 @@ from pynput.keyboard import Controller
 pyocr.tesseract.TESSERACT_CMD = r'E:/dev/Tesseract-OCR/tesseract.exe'
 
 tools = pyocr.get_available_tools()
-if len(tools) == 0:
-    print("OCRツールを取得できませんでした。")
-    exit(2)
-
 tools = tools[0]
 keyboard = Controller()
 
