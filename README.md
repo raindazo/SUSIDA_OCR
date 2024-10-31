@@ -1,5 +1,5 @@
-
 pip install pyocr
+
 pip install pyautogui pyocr pillow pynput
 
 ■ Tesseract OCR
