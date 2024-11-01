@@ -32,7 +32,7 @@ try:
         builder = pyocr.builders.TextBuilder(tesseract_layout=6)
         text = tools.image_to_string(img, lang='jpn', builder=builder)
 
-        #OCRで取得した文字をタイプ
+        #取得した文字列をタイプ
         for char in text:
             keyboard.type(char)
 
